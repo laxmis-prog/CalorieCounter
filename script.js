@@ -17,5 +17,4 @@ function isInvalidInput(str) {
   return str.match(regex);
 }
 
-console.log(entryDropdown.value)
-
+function addEntry () {}
