@@ -25,7 +25,7 @@ function addEntry() {
   const HTMLString = `<label for = "${entryDropdown.value}-${entryNumber}-name">Entry ${entryNumber} Name </label>
    <input type="text" id="${entryDropdown.value}-${entryNumber}-name" placeholder="Name" />
     <input type="number" min="0" placeholder="Calories" id="${entryDropdown.value}-${entryNumber}-calories">`;
-    targetInputContainer.innerHTML += HTMLString;
+    targetInputContainer.insertAdjacentHTML()
 }
 
 addEntryButton.addEventListener("click", addEntry);
