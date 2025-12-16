@@ -32,6 +32,7 @@ function addEntry() {
 function calculateCalories(e) {
   e.preventDefault();
   isError = false;
+  const budgetCalories = getCaloriesFromInputs([budgetNumberInput]);
   const breakfastNumberInputs = document.querySelectorAll("#breakfast input[type='number']");
   const lunchNumberInputs = document.querySelectorAll("#lunch input[type='number']");
   const dinnerNumberInputs = document.querySelectorAll("#dinner input[type='number']");
