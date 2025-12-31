@@ -76,6 +76,7 @@ function calculateCalories(e) {
   <p>${exerciseCalories} Calories Burned</p>
      </hr>
 `;
+  output.classList.remove("hide");
 }
 
 function getCaloriesFromInputs(list) {
