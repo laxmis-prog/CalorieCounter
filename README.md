@@ -1,0 +1,1 @@
+This is a Calorie Counter project I created as part of the FreeCodeCamp JavaScript Algorithms and Data Structures curriculum. In this project I learnt how to validate user input,perform calculations based on that input and dynamically update interface to display the results.
